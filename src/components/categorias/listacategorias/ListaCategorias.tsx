@@ -11,7 +11,7 @@ function ListaCategorias() {
 
   async function buscarCategorias() {
     try {
-      await buscar('/Categorias', setCategorias) 
+      await buscar('/categorias', setCategorias) 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error: any) {
       alert("Tente novamente.")

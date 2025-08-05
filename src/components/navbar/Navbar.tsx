@@ -10,9 +10,6 @@ function Navbar() {
                     <div className='flex gap-4'>
                         Produtos
                         Categorias
-                        Adicionar
-                        Atualizar
-                        Deletar
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ function Footer() {
       <div className="flex justify-center bg-[#0E1D1F] text-[#F4F5F4]">
         <div className="container flex flex-col items-center py-4">
           <p className='text-xl font-mono'>
-            CTRL + Farmácia | Copyright: {data}
+            CTRL + FARMÁCIA | Copyright: {data}
           </p>
           <hr className="w-1/8 h-0.5 mx-auto my-1.5 bg-[#f4f5f454] border-0" />
           <p className='text-lg py-2'>Acesse nossas redes sociais</p>

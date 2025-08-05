@@ -12,7 +12,6 @@ function Navbar() {
                         Categorias
                         Adicionar
                         Atualizar
-                        Deletar
                     </div>
                 </div>
             </div>

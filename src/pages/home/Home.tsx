@@ -1,5 +1,5 @@
 import logo from "../../assets/img/logo.png";
-import Cumprimento from "../../util/Cumprimento";
+import Cumprimento from "../../util/cumprimento/Cumprimento";
 
 function Home() {
     return (

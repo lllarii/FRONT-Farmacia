@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png";
+import ListaCategorias from "../../components/categorias/listacategorias/ListaCategorias";
 import Cumprimento from "../../util/cumprimento/Cumprimento";
 
 function Home() {
@@ -16,7 +18,7 @@ function Home() {
                             <div className='rounded text-white 
                                             border-white border-solid border-2 py-2 px-4'
                                 >
-                                Criar Categoria
+                                <Link to='/adicionarcategoria' className='hover:text-[#95DF94]'>Criar categoria</Link>
                             </div>
                         </div>
                     </div>
@@ -30,6 +32,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+          <ListaCategorias />
         </>
     )
 }
